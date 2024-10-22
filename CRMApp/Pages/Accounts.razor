@@ -18,22 +18,22 @@
                         </h6>
                     </div>
                     <div class="row-layout buttons">
-                        <IgbButton Variant="ButtonVariant.Flat" @onclick="@(e => _newAccountDialog!.ToggleAsync())" class="button button_2" accounts-scope>
-                            <span class="material-icons icon">
+                        <IgbButton Variant="ButtonVariant.Outlined" @onclick="@(e => _newAccountDialog!.ToggleAsync())" class="button" accounts-scope>
+                            <span class="material-icons">
                                 business
                             </span>
                             <span>New Account</span>
                             <IgbRipple></IgbRipple>
                         </IgbButton>
-                        <IgbButton Variant="ButtonVariant.Flat" class="button button_3" accounts-scope>
-                            <span class="material-icons icon">
+                        <IgbButton Variant="ButtonVariant.Outlined" class="button" accounts-scope>
+                            <span class="material-icons">
                                 search
                             </span>
                             <span>Discover companies</span>
                             <IgbRipple></IgbRipple>
                         </IgbButton>
-                        <IgbButton Variant="ButtonVariant.Flat" class="button button_4" accounts-scope>
-                            <span class="material-icons icon">
+                        <IgbButton Variant="ButtonVariant.Outlined" class="button" accounts-scope>
+                            <span class="material-icons">
                                 import_export
                             </span>
                             <span>Import</span>
@@ -53,16 +53,16 @@
                         </IgbSelect>
                         <IgbInput Placeholder="Search accounts" Required Outlined="false" class="input" accounts-scope>
                             <span slot="prefix">
-                                <span class="material-icons icon_1">
+                                <span class="material-icons icon">
                                     search
                                 </span>
                             </span>
                         </IgbInput>
                     </div>
                     <div class="row-layout group_5">
-                        <IgbButton Variant="ButtonVariant.Flat" @ref="_button" @onclick="@(e => _dropdown!.ToggleAsync(_button))" class="button button_5" accounts-scope>
+                        <IgbButton Variant="ButtonVariant.Flat" @ref="_button" @onclick="@(e => _dropdown!.ToggleAsync(_button))" class="button button_2" accounts-scope>
                             <span>Recently Updated</span>
-                            <span class="material-icons icon">
+                            <span class="material-icons icon_1">
                                 keyboard_arrow_down
                             </span>
                             <IgbRipple></IgbRipple>
@@ -106,7 +106,7 @@
                         <div class="column-layout group_10">
                             <IgbInput Label="Account Name" Required Outlined="false" class="user-input" accounts-scope>
                                 <span slot="suffix">
-                                    <span class="material-icons icon_1">
+                                    <span class="material-icons icon">
                                         search
                                     </span>
                                 </span>
@@ -160,7 +160,7 @@
                             </div>
                             <IgbInput Label="Parent Account" Placeholder="Search Accounts..." Required Outlined="false" class="user-input" accounts-scope>
                                 <span slot="suffix">
-                                    <span class="material-icons icon_1">
+                                    <span class="material-icons icon">
                                         search
                                     </span>
                                 </span>
@@ -219,7 +219,7 @@
                         </p>
                         <IgbInput Label="Address" Placeholder="Search Address" Required Outlined="false" class="user-input" accounts-scope>
                             <span slot="suffix">
-                                <span class="material-icons icon_1">
+                                <span class="material-icons icon">
                                     search
                                 </span>
                             </span>
@@ -256,7 +256,7 @@
                         </p>
                         <IgbInput Label="Address" Placeholder="Search Address" Required Outlined="false" class="user-input" accounts-scope>
                             <span slot="suffix">
-                                <span class="material-icons icon_1">
+                                <span class="material-icons icon">
                                     search
                                 </span>
                             </span>
