@@ -309,9 +309,6 @@
     height: max-content;
     min-width: min-content;
 }
-.icon {
-    color: hsla(var(--ig-primary-500));
-}
 .avatar {
     --ig-size: var(--ig-size-small);
 }
@@ -325,7 +322,7 @@
     height: max-content;
     min-width: 140px;
 }
-.icon_1 {
+.icon {
     color: hsla(var(--ig-gray-500));
 }
 .hyperlink_1 {
@@ -433,10 +430,6 @@
 .checkbox {
     width: max-content;
     height: max-content;
-}
-.button::part(base) {
-    color: hsla(var(--ig-primary-500));
-    background-color: hsla(var(--ig-secondary-100));
 }
 .list {
     height: max-content;
